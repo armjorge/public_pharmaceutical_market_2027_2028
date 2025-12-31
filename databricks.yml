@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for public_pharmaceutical_market_2027_2028.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: public_pharmaceutical_market_2027_2028
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-8839a5dd-5e1b.cloud.databricks.com
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://dbc-8839a5dd-5e1b.cloud.databricks.com

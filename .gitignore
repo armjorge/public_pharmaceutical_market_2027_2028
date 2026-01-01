@@ -208,3 +208,4 @@ __marimo__/
 
 .databricks
 .vscode/
+.DS_Store

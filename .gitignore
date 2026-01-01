@@ -209,3 +209,4 @@ __marimo__/
 .databricks
 .vscode/
 .DS_Store
+market_files/
